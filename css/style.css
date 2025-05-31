@@ -942,6 +942,14 @@ h5 {
   color: #ffffff;
   margin-bottom: 20px;
 }
+h6{
+ background-color: #728299;
+  color: #fff;
+  border-radius: 5cm;
+  text-align: center;
+  padding: 20px 500px;
+}
+
 /* Aplica fondo oscuro y bordes redondeados a todo el input group */
 .input-group,
 .input-group-text,
@@ -1223,8 +1231,7 @@ body {
         padding: 20px;
         position: relative;
         bottom: auto;
-        width: 500px;
-        margin-top: 300px;
+        margin-top: 80px;
     }
     *
     {
