@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Cursos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillZen</title>
+  
 </head>
 <body>
-    <h1></h1>
+  <section id="formulario">
+    <h2>Únete al próximo curso gratuito</h2>
+    <form action="#" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="curso">Curso de interés:</label>
+      <select id="curso" name="curso">
+        <option value="web">Desarrollo Web</option>
+        <option value="diseno">Diseño Gráfico</option>
+        <option value="marketing">Marketing Digital</option>
+        <option value="ia">Inteligencia Artificial</option>
+      </select>
+
+      <button type="submit">Inscribirme</button>
+    </form>
+  </section>
+
+ 
 </body>
 </html>
